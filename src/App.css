@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -22,9 +22,46 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+.ok{
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: center;
+  width: 400px;
+  margin-right: auto;
+   margin-left: auto;
+   margin-top: 100px;
+}
+button{
+  border: 1px solid green;
+  background-color: green;
+  padding: 8px 20px ;
+  border-radius: 5px;
+  color: white;
+}
+button:hover{
+  background-color: rgb(121, 248, 121);
+  color: black;
+  border: 1px solid rgb(75, 248, 75);
+}
+h1{
+  color: red;
 }
 
-.App-link {
+#look{
+  padding: 5px;
+  border: 1px solid transparent;
+}
+
+#look:hover{
+  border: 1px solid transparent;
+  background-color: rgb(181, 248, 226);
+}
+
+
+
+/* .App-link {
   color: #61dafb;
 }
 
@@ -35,4 +72,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
